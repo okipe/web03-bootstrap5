@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Frontend Bootcamp</title>
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">Front-End Bootcamp</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -54,10 +55,99 @@
         <div class="container">
             <div class="d-md-flex justify-content-between align-items-center">
                 <h3 class="mb-3 mb-md-0">Sign Up for our Newsletter</h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter E-mail" aria-label="Enter E-mail" aria-describedby="button-addon2">
+                    <button class="btn btn-dark btn-lg" type="button">Button</button>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Virtual</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem aliquid impedit quaerat eos dicta id?</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Hybrid</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem aliquid impedit quaerat eos dicta id?</p>
+                            <a href="#" class="btn btn-dark">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title mb-3">In person</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem aliquid impedit quaerat eos dicta id?</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="./img/fundamentals.svg" class="img-fluid" alt="Fundamentals of programming">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Learn the fundamentals</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt commodi odit corrupti qui, exercitationem accusantium cum ex voluptatum. Ipsa blanditiis nisi labore sint atque ducimus.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati fugit, provident incidunt laborum neque animi adipisci officia voluptatibus id eos iusto iste facere eaque nemo illo corporis labore accusamus!</p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right">Read mored</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Learn the advanced level</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt commodi odit corrupti qui, exercitationem accusantium cum ex voluptatum. Ipsa blanditiis nisi labore sint atque ducimus.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati fugit, provident incidunt laborum neque animi adipisci officia voluptatibus id eos iusto iste facere eaque nemo illo corporis labore accusamus!</p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right">Read mored</i>
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="./img/expert.svg" class="img-fluid" alt="Fundamentals of programming">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5">
+        #I am in 47
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
